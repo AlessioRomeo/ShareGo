@@ -1,0 +1,95 @@
+.container {
+  width: 18%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, #1d0041, #4200a0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  border-right: .5px solid #909090;
+}
+
+.logoContainer {
+  padding-block: 30px;
+}
+
+.logo {
+  font-family: 'Audiowide', cursive;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.logo > span {
+  color: #7300ff;
+}
+
+.inputContainer {
+  width: 80%;
+  border-radius: 40px;
+  height: 45px;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  color: black;
+  width: 80%;
+  border-radius: 40px;
+  background-color: #efefef;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding-left: 3px;
+}
+
+.searchIcon {
+  color: black;
+  font-size: 22px;
+  padding-inline: 4px;
+}
+
+.menuItemsContainer {
+  margin-top: 30px;
+  width: 82%;
+  height: 70%;
+}
+
+.profileImage {
+  border-radius: 40px;
+}
+
+.menuLink {
+  display: flex;
+  align-items: center;
+  padding-block: 12px;
+  padding-inline: 12px;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  &:hover {
+    background-color: #390089;
+  }
+}
+
+.menuLink > h1 {
+  margin-inline: 10px;
+}
+
+.iconMenuContainer {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 37px;
+  color: white;
+}
+
+.menuItemsContainerBottom {
+  width: 82%;
+}

@@ -1,0 +1,108 @@
+.container {
+  width: 600px;
+  background-image: linear-gradient(145deg, #1d0041, #260061);
+  margin-block: 20px;
+  border-radius: 15px;
+  border: .5px solid #909090;
+}
+
+.topPost {
+  display: flex;
+  align-items: center;
+}
+
+.profileImage {
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.topPost > h1 {
+  color: white;
+  font-size: 19px;
+}
+
+.topPost > h1 > span {
+  letter-spacing: 1.5px;
+}
+
+.image {
+  width: 100%;
+  max-height: 750px;
+  object-fit: contain;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 15px;
+}
+
+.icon {
+  color: white;
+  font-size: 28px;
+  margin-block: 15px;
+  transition: .3s;
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+}
+
+.iconMiddle {
+  margin-inline: 15px;
+}
+
+.captionSection {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.captionSection > h1 {
+  font-size: 19px;
+  font-weight: 500;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  font-size: 19px;
+  margin-inline: 15px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+.smileIcon {
+  font-size: 30px;
+  margin-inline: 15px;
+  color: white;
+  transition: .3s;
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+}
+
+.input {
+  width: 80%;
+  padding-block: 13px;
+  padding-right: 8px;
+  display: flex;
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
